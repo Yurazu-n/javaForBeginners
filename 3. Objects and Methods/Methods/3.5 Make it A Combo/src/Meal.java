@@ -12,8 +12,13 @@ public class Meal
     }
 
     //Instance methods//
-   /* Complete the method makeItACombo */}
+   public void makeItACombo(){
+       name += " with fries and soda";
+       cost += 3;
+   }
 
-   /* Complete the method getBill */}
+    public String getBill(){
+        return name + ", $" + cost;
+    }
 
 }
